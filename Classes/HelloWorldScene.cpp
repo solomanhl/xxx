@@ -91,7 +91,7 @@ bool HelloWorld::init()
 	spriteChenhao->setPosition(Point(visibleSize.width + origin.x - spriteChenhao->getContentSize().width, origin.y + visibleSize.height - spriteChenhao->getContentSize().height));
 	this->addChild(spriteChenhao, 0);
 
-
+	//
 
 	//创建两个button
 	Buttons *leftButton, *rightButton;
